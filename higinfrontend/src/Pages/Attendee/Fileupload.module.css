@@ -1,0 +1,83 @@
+/* FileUpload.module.css */
+.form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin: 25px;
+  /* border: none; */
+ 
+  background-color: #ccc;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.fileInput {
+  flex-grow: 1;
+  margin: 10px;
+  
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.dateInput {
+  margin-left: px;
+  padding: 2px;
+  width: 160px;
+}
+@media screen and (max-width: 768px) {
+  .dummy{
+    display: none;
+  }
+}
+
+
+
+.formRow {
+  display: flex;
+  align-items: center; /* Aligns items vertically in the center (or change to "baseline" for bottom alignment) */
+}
+
+.label {
+  margin-right: 10px; /* Adjust the spacing between the label and the first input */
+ 
+}
+
+.input {
+  flex: 1; /* This ensures the input field takes up the available space */
+ 
+}
+
+.dateInput {
+   /* This ensures the hidden input takes up the same amount of space */
+  margin-left: 10px; /* Optional: add some space between the visible input and the hidden one */
+ 
+}
